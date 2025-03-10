@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    color: #333;
+}
+
+#timer {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.buttons,
+.mode-buttons {
+    margin-top: 10px;
+}
+
+.start {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1c9b36;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.stop {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fa2d2d;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.reset {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #666f68;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.shortbreak {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #42a6c7;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+.longbreak {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1926dc;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
